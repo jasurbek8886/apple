@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 44px;
+    background: #fafafc;
+    padding: 0 15%;
+}
+.nav__collection{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav__item span{
+    font-size: 12px;
+}
+.nav__bottom{
+    text-align: center;
+    font-size: 14px;
+    padding: 14px 0;
+
+}
+.nav__bottom a{
+    color: dodgerblue;
+    text-decoration: none;
+}
+.banner{
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 16px;
+
+}
+.banner h1{
+    font-size: 50px;
+}
+.banner h3{
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 14px;
+}
+.banner__links a{
+    margin: 0 14px;
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 18px;
+}
+.macbook__air{
+    background: url("./hero_macbook_air_15__x63n8tqcpo2u_large.jpg")
+    no-repeat center/cover;
+
+}
+.iphone14pro{
+    background: url("./hero_iphone14pro_spring__9xo85pm6sbmm_large\ \(2\).jpg") 
+    no-repeat center/cover;
+    color: #fff;
+}
+.iphone14{
+    background: url("./hero_iphone14_yellow__eun20sn4imi6_large\ \(1\).jpg")
+    no-repeat center/cover;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 16px;
+    gap: 16px;
+}
+.box{
+    width: calc(50% - 8px);
+    height: 500px;
+    border:none;
+
+    text-align: center;
+    padding-top: 50px;
+}
+.box h3{
+    font-weight: 100;
+    margin: 12px 0;
+}
+.box a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.vision{
+    background: url("./promo_apple_vision_pro__f4v4zp0sum2y_large.jpg") 
+    no-repeat center/cover;
+    padding-top: 350px;
+}
+.watch{
+    background: url("./promo_apple_watch_series_8_spring__d9hfvufh7hyu_large.jpg") 
+    no-repeat center/cover;
+    color: #fff;
+    gap: 10px;
+}
+.watch a{
+    margin: 0 14px;
+}
+.watch h3{
+    color: red;
+}
+.ipad{
+    background: url("./promo_ipadpro__ch217v9v7no2_large.jpg")
+    no-repeat center/cover;
+    color: #fff;
+}
+.ipad a{
+    margin: 0 14px;
+}
+.trade{
+    background: url("./iphone_tradein_promo__d5au3rkw5kuq_large\ \(1\).jpg")
+    no-repeat center/cover;
+}
+.large{
+    background: url("./promo__sw58lbodkmqq_large.jpg")
+    no-repeat center/cover;
+    padding-top: 330px;
+    color: #fff;
+}
+.large h1{
+     padding-left: 32%;
+     padding-right: 32%;
+}
+.large h3{
+    padding-left: 28%;
+    padding-right: 28%;
+}
+.tile{
+    background: url("./tile__cauwwcyyn9hy_large\ \(1\).jpg")
+    no-repeat center/cover;
+}
+.tile a{
+    margin: 0 14px;
+}
+.tile h3{
+    padding-left: 33%;
+    padding-right: 33%;
+}
+.idn{
+    padding-left: 11%;
+    padding-right: 11%;
+}
+.par{
+    font-size: 12px;
+}
+.m{
+    display: flex;
+}
+.b{
+    width: 280px;
+    height: 420px;
+}
+.ul{
+    list-style: none;
+    font-size: 12px;
+}
+li{
+    padding:5px 0;
+}
+.por{
+    font-size: 12px;
+    padding: 6px 0;
+}
+.mov{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.ol{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
